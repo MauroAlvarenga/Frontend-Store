@@ -1,0 +1,116 @@
+:root {
+    --primario: #FFF7E0;
+    --primarioOscuro: #826644;
+    --secundario: #DBCBBC;
+    --secundarioOscuro: #D1C0BF;
+    --blanco: #FFF;
+    --negro: #000;
+    /* Colores: #DBCBBC, #826644, #FFF7E0, #D1C0BF*/
+
+    --fuentePrincipal: 'Lobster', cursive;
+    --fuenteSecundaria: 'Montserrat', sans-serif;;
+    --fuenteAlternativa: 'Staatliches', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/** Globales **/
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: var(--fuenteSecundaria);
+    color: var(--negro);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--primarioOscuro);
+    font-family: var(--fuentePrincipal);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+/** Header **/
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__logo {
+    margin: 1rem 0;
+}
+
+/** Footer **/
+.footer {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.footer__texto, .footer__texto--sm {
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 2rem;
+    margin: .5rem auto;
+}
+.footer__texto--sm {
+    font-size: 1.5rem;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: .5rem auto;
+}
+
+/** Navegacion **/
+.navegacion {
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    /* gap: 2rem; separacion forma nueva */
+}
+.navegacion__enlace{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+    margin: 0 1rem;
+}
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: var(--secundarioOscuro);
+}
+
