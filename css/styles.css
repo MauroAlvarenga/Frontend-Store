@@ -135,8 +135,9 @@ h3 {
 .producto {
     background-color: var(--primarioOscuro);
     padding: 1rem;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.349);
+    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.349);
     margin: 1rem;
+    border-radius: 1.5rem 0.5rem;
 }
 @media (min-width: 850px) {
     .producto {
@@ -144,11 +145,13 @@ h3 {
     }    
 }
 .producto:hover {
-    transition: box-shadow .1s ease-out;
+    transition: box-shadow .7s ease-out;
+    transform: translate(-1px, -1px);
     box-shadow: none;
 }
 .producto__imagen {
     width: 100%;
+    border-radius: 1.5rem 0.5rem;
 }
 .producto__nombre {
     font-family: var(--fuentePrincipal);
@@ -211,13 +214,18 @@ h3 {
 }
 @media (min-width: 768px) {
     .nosotros {
-
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
 }
 .nosotros__texto {
     line-height: 1.5;
+    margin: 0 1rem;
+}
+@media (min-width: 768px) {
+    .nosotros__texto{
+        margin: 0 0; 
+    }
 }
 .nosotros__imagen {
     grid-row: 1 / 2;
@@ -248,3 +256,7 @@ h3 {
 .icono__titulo {
     margin: 0;
 }
+.comprar{
+    margin: 0 1rem;
+}
+
