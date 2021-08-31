@@ -238,7 +238,7 @@ h3 {
 .iconos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 3rem;
 }
 @media (min-width: 768px) {
     .iconos {
@@ -248,6 +248,12 @@ h3 {
 .icono {
     text-align: center;
 }
+.icono__imagen {
+    background-color: #826644e8;
+    border-radius: 2rem;
+    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.349);
+}
+
 .icono__titulo {
     margin: 0;
 }
