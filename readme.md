@@ -7,7 +7,7 @@ It's part of a course i'm attending, with some personal touches.
 
 HTML, CSS (with BEM methodology).
 
-### Design Credits
+## Design Credits
 
-This project is part of a course from Juan Pablo de la Torre: https://codigoconjuan.com/
+This project is part of a course from Juan Pablo de la Torre: https://codigoconjuan.com/.
 With some style and color modifications to make it a little bit more "mine".
