@@ -54,14 +54,21 @@ h1, h2, h3 {
 
 h1 {
     font-size: 4rem;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
 }
 
 h2 {
     font-size: 3.2rem;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
 }
 
 h3 {
     font-size: 2.4rem;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+}
+
+svg {
+    filter: drop-shadow(4px 4px 2.5px rgb(0 0 0 / 0.4));
 }
 
 /** Header **/
@@ -135,7 +142,8 @@ h3 {
 .producto {
     background-color: var(--primarioOscuro);
     padding: 1rem;
-    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.349);
+    /*box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.349);*/
+    box-shadow: .2rem .8rem 1.8rem 0.1rem rgba(0, 0, 0, 0.349);
     margin: 1rem;
     border-radius: 1.5rem 0.5rem;
 }
@@ -228,6 +236,7 @@ h3 {
 }
 .nosotros__imagen {
     grid-row: 1 / 2;
+    box-shadow: 0 0 2.5rem 0.1rem rgba(0, 0, 0, 0.459);
 }
 @media (min-width: 768px) {
     .nosotros__imagen {
@@ -251,7 +260,7 @@ h3 {
 .icono__imagen {
     background-color: #826644e8;
     border-radius: 2rem;
-    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.349);
+    box-shadow: 0 0 2.5rem 0.1rem rgba(0, 0, 0, 0.459);
 }
 
 .icono__titulo {
@@ -274,7 +283,7 @@ h3 {
 }
 .camisa__imagen {
     border-radius: 2rem;
-    box-shadow: 0 .8rem 1.6rem 0 rgba(0, 0, 0, 0.349);
+    box-shadow: .2rem .8rem 1.8rem 0.1rem rgba(0, 0, 0, 0.349);
 }
 
 .formulario {
