@@ -285,7 +285,16 @@ svg {
     border-radius: 2rem;
     box-shadow: .2rem .8rem 1.8rem 0.1rem rgba(0, 0, 0, 0.349);
 }
-
+.camisa__precio {
+    background-color:#826644f3;
+    color: #FFF;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-family: var(--fuentePrincipal);
+    margin: 2rem 0;
+    border-radius: 1rem;
+}
 .formulario {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
