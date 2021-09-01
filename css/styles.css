@@ -307,6 +307,7 @@ svg {
     padding: 1rem;
     appearance: none;
     text-align: center;
+    text-align-last: center;
 }
 @media (min-width: 768px) {
     .formulario__campo {
@@ -329,4 +330,11 @@ svg {
     cursor: pointer;
     background-color:#826644e8;
     font-size: 2.1rem;
+}
+
+.botonSwal {
+    font-size: 1.8rem;
+    font-family: var(--fuenteSecundaria);
+    color: var(--blanco);
+    padding: 1rem;
 }

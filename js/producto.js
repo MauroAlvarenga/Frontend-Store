@@ -41,7 +41,16 @@ window.addEventListener('DOMContentLoaded', e => {
 
     agregar.addEventListener('click', e => {
         e.preventDefault()
-
+        Swal.fire({
+            title: "<h2>Agregado al Carrito!</h2>",
+            html: "<p>De mentiritas, esta pagina no tiene carrito</p>",
+            icon:  "success",
+            footer: "<p style='font-size: 1.5rem;'>(Funcion a ser agregada en un futuro)</p>",
+            width: "50rem",
+            padding: "2rem",
+            confirmButtonText: "<span class='botonSwal'>Y bueno...<span>",
+            confirmButtonColor: "#826644"
+        })
     })
 
     sessionStorage.clear()
