@@ -17,6 +17,7 @@ const productos = {
 
 const precio = document.querySelector(".camisa__precio")
 const cantidad = document.querySelector("#cantidad")
+const agregar = document.querySelector(".formulario__submit")
 
 const actualizarPrecio = (valorActual) => {
     let nuevoPrecio = valorActual * 25
@@ -36,6 +37,15 @@ window.addEventListener('DOMContentLoaded', e => {
 
     cantidad.addEventListener('input', e => {
         actualizarPrecio(cantidad.value)
+    })
+
+    agregar.addEventListener('click', e => {
+        e.preventDefault()
+        swal({
+            title: "Agregado al Carrito!",
+            text: "Agregaste cosas al carro!",
+            icon: "success",
+          });
     })
 
     sessionStorage.clear()
