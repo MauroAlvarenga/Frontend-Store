@@ -84,7 +84,7 @@ svg {
 .footer {
     background-color: var(--primarioOscuro);
     padding-top: .5rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 .footer__texto, .footer__texto--sm {
     text-align: center;
@@ -285,6 +285,17 @@ svg {
     border-radius: 2rem;
     box-shadow: .2rem .8rem 1.8rem 0.1rem rgba(0, 0, 0, 0.349);
 }
+.camisa__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+    .camisa__contenido p {
+        margin-top: 0;
+    }
+}
+
 .camisa__precio {
     background-color:#826644f3;
     color: #FFF;

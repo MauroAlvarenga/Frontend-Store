@@ -39,19 +39,22 @@
 
             <div class="camisa__contenido">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rem aperiam minus, eum libero vitae voluptates obcaecati pariatur, ex aspernatur nemo molestiae rerum enim adipisci exercitationem totam! Hic, suscipit. Magni.</p>
-    
-                <div class="camisa__precio">$25</div>
+                
+                <div> <!-- para posicionamiento con flexbox -->
+                    <div class="camisa__precio">$25</div>
 
-                <form class="formulario">
-                    <select name="" id="" class="formulario__campo">
-                        <option selected disabled>--Selecionar Talle--</option>
-                        <option value="Pequeña">Pequeña / S</option>
-                        <option value="Mediana">Mediana / M</option>
-                        <option value="Grande">Grande / L</option>
-                    </select>
-                    <input class="formulario__campo" id="cantidad" type="number" placeholder="Cantidad" min="1" max="10">
-                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
-                </form>
+                    <form class="formulario">
+                        <select name="" id="" class="formulario__campo">
+                            <option selected disabled>--Selecionar Talle--</option>
+                            <option value="Pequeña">Pequeña / S</option>
+                            <option value="Mediana">Mediana / M</option>
+                            <option value="Grande">Grande / L</option>
+                        </select>
+                        <input class="formulario__campo" id="cantidad" type="number" placeholder="Cantidad" min="1" max="10">
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+                
             </div>
         </div> <!-- /Camisa -->
 
