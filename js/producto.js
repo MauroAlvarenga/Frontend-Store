@@ -41,11 +41,7 @@ window.addEventListener('DOMContentLoaded', e => {
 
     agregar.addEventListener('click', e => {
         e.preventDefault()
-        swal({
-            title: "Agregado al Carrito!",
-            text: "Agregaste cosas al carro!",
-            icon: "success",
-          });
+
     })
 
     sessionStorage.clear()

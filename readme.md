@@ -5,7 +5,7 @@ It's part of a course i'm attending, with some personal touches.
 
 ## Built with
 
-HTML, CSS (with BEM methodology).
+HTML, CSS (with BEM methodology), JavaScript.
 
 ## Design Credits
 
