@@ -1,5 +1,3 @@
-const Swal = require('sweetalert2')
-
 const productos = {
     "1": "VueJS",
     "2": "AngularJS",
@@ -26,13 +24,6 @@ const actualizarPrecio = (valorActual) => {
 }
 
 window.addEventListener('DOMContentLoaded', e => {
-
-    Swal.fire({
-        title: 'Error!',
-        text: 'Do you want to continue',
-        icon: 'error',
-        confirmButtonText: 'Cool'
-      })
 
     if(sessionStorage.getItem("producto")) {
 
