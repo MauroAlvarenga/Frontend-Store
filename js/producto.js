@@ -35,12 +35,12 @@ window.addEventListener('DOMContentLoaded', e => {
 
     }
 
-    cantidad.addEventListener('input', e => {
+    cantidad.addEventListener('input', evt => {
         actualizarPrecio(cantidad.value)
     })
 
-    agregar.addEventListener('click', e => {
-        e.preventDefault()
+    agregar.addEventListener('click', evt => {
+        evt.preventDefault()
         Swal.fire({
             title: "<h2>Agregado al Carrito!</h2>",
             html: "<p>De mentiritas, esta pagina no tiene carrito</p>",
